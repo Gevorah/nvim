@@ -1,7 +1,7 @@
 let g:coc_global_extensions = [
+    \ 'coc-json',
     \ 'coc-snippets',
     \ 'coc-pairs',
-    \ 'coc-python',
     \ 'coc-prettier',
     \ 'coc-vimlsp',
     \ 'coc-marketplace',
@@ -9,10 +9,6 @@ let g:coc_global_extensions = [
 
 " TextEdit might fail if hidden is not set.
 set hidden
-
-" Some servers have issues with backup files, see #649.
-set nobackup
-set nowritebackup
 
 " Give more space for displaying messages.
 set cmdheight=2

@@ -3,7 +3,7 @@ syntax enable " Highlighting
 set background=dark " Use light colors for text
 
 " Spaces & Tabs
-set smartindent " Self explanatory
+set smartindent " Self-explanatory
 set smarttab " Self explanatory
 set ts=4 sts=4 " Number of visual spaces per <Tab>
 set sw=4 " Number of spaces to use for autoindent
@@ -27,16 +27,17 @@ set cursorline " Highlight current line
 set encoding=UTF-8 "File codification
 set showmatch " Domain parenthesis
 set laststatus=2 " Status visible
-set noshowmode "Self explanatory
-set spelllang=en "Correct wrong words
-set hidden
+set noshowmode " Self explanatory
+set spelllang=en " Correct wrong words
 
 " Backups & Swap files
+" Some servers have issues with backup files, see #649.
 set nobackup
 set nowritebackup
 set noswapfile
+execute 'set undodir=' . g:nvim_data_root . '/undodir'
 
 " Python virtual environment detection in linux
 let g:loaded_python_provider = 0
 " Python virtual environment directory
-let g:python3_host_prog = '/home/gevorah/.local/share/virtualenvs/nvim-FxPQOIlP/bin/python3.9'
+let g:python3_host_prog = '/bin/python3'
