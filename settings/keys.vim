@@ -1,7 +1,12 @@
 let mapleader = ' '
 
-nmap <leader>s <Plug>(easymotion-s2)
-nmap <leader>nt :NERDTreeFind<CR>
+" Basic
 nmap <leader>w :w<CR>
 nmap <leader>q1 :q!<CR>
 nmap <leader>wq :wq<CR>
+
+" NERDTree
+nmap <leader>nt :NERDTreeFind<CR>
+ 
+
+nmap <leader>2 <Plug>(easymotion-s2)

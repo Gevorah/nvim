@@ -2,11 +2,13 @@
 syntax enable " Highlighting
 set background=dark " Use light colors for text
 
+
+
 " Spaces & Tabs
 set smartindent " Self-explanatory
 set smarttab " Self explanatory
-set ts=4 sts=4 " Number of visual spaces per <Tab>
-set sw=4 " Number of spaces to use for autoindent
+set ts=2 sts=2 " Number of visual spaces per <Tab>
+set sw=2 " Number of spaces to use for autoindent
 set et " Use spaces to insert a <Tab>
 set signcolumn=yes 
 

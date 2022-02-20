@@ -5,6 +5,7 @@ let g:config_file_list = [
     \ '/settings/plugins.vim',
     \ '/settings/keys.vim',
     \ '/settings/coc.vim',
+    \ '/settings/nerdtree.vim',
     \ '/settings/nerdcommenter.vim'
     \ ]
    
